@@ -3,7 +3,7 @@
 ### 安装地址
 [安装地址1](https://greasyfork.org/zh-CN/scripts/380568)
 
-[安装地址2](https://greasyfork.org/zh-CN/scripts/380568)
+[安装地址2](https://openuserjs.org/scripts/syhyz1990/VIP视频解析助手)
 
 ### 更新日志
 
