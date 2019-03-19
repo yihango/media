@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name              VIP视频解析助手
-// @namespace         https://github.com/syhyz1990/baiduyun
+// @namespace         https://github.com/syhyz1990/media
 // @version           1.0.0
 // @icon              https://gw.alicdn.com/tfs/TB1ZvwSycbpK1RjSZFyXXX_qFXa-48-48.ico
-// @description       解析各大网站视频真实地址
+// @description       解析各大视频网站VIP视频，支持优酷，爱奇艺，乐视，腾讯视频，土豆，芒果TV，acfun，bilibili，PPTV，暴风，音悦台
 // @author            syhyz1990
 // @license           MIT
 // @supportURL        https://github.com/syhyz1990/media
@@ -36,8 +36,6 @@
 // @require           https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js
 // @run-at            document-idle
 // @grant             unsafeWindow
-// @grant             GM_xmlhttpRequest
-// @grant             GM_download
 // @grant             GM_addStyle
 // ==/UserScript==
 
@@ -46,7 +44,7 @@
 
   GM_addStyle('.h-icon-play {color: #d926b5;fill: #d926b5;height: 80px;width: 80px;position: fixed;z-index: 99999;top: 200px;left: 0;cursor: pointer;}  .h-ol {position: fixed;top: 270px;left: 20px;z-index: 99999;counter-reset: li;list-style: none;font-size: 14px;padding: 0;margin-bottom: 4em;text-shadow: 0 1px 0 rgba(255, 255, 255, .5);display: none;}  .h-ol a {position: relative;display: block;padding: 3px 10px 3px 2em;margin: 0.5em 0;background: #ddd;color: #444;text-decoration: none;border-radius: 0.3em;transition: all 0.3s ease-out;}  .h-ol a:hover {background: #eee;color: #ff6f5c;transition: all 0.3s ease-out;}  .h-ol a::before {content: counter(li);counter-increment: li;position: absolute;left: -1.3em;top: 50%;margin-top: -1.3em;background: #87ceeb;height: 2em;width: 2em;line-height: 2em;border: 0.3em solid #fff;text-align: center;font-weight: bold;border-radius: 2em;}');
 
-  let api = ['http://jx.itaoju.top/?url=', 'http://api.bbbbbb.me/jx/?url=','http://api.7kki.cn/api/?url=',''];
+  let api = ['http://jx.itaoju.top/?url=', 'http://api.bbbbbb.me/jx/?url=', 'http://api.7kki.cn/api/?url=', ''];
 
   function showButton() {
     if (location.host.match(/youku|iqiyi|le|qq|tudou|mgtv|sohu|acfun|bilibili|pptv|baofeng|yinyuetai/ig)) {
