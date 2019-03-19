@@ -15,7 +15,7 @@
 
 安装插件后左侧会显示下图按钮，点击后选择线路即可播放
 
-![插件界面](http://ww1.sinaimg.cn/large/4db689e3ly1g17yt0tksqj21280pdkg0.jpg)
+![插件界面](https://ww1.sinaimg.cn/large/4db689e3ly1g17yt0tksqj21280pdkg0.jpg)
 
 ### 捐赠
 如果您觉得脚本对您有帮助，您可以通过支付宝或微信，扫描二维码，捐赠 X元，^_^，谢谢！
